@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body background="fondo html.jpg">
+	<div id="body">
+	<h1>Examen de conocimientos html</h1>
+	<br>
+	<br>
+	<div id="cuadro">	
+	Ingresa usuario<input type="text" id="user" name="user"/>
+	Ingresa contraseña<input type="password" id="pass" name="pass"/>	
+	<input type="button" name="ENTRAR" value="Calcular" onclick="login(user.value,pass.value);"/>
+	<div id="resultado"></div>
+	<br>
+	Ingresa la edad a calcular: <input type="text" name="edad" id="edad">
+	<input type="button" name="Calcular edad" value="Calcular edad" onclick="mayormenor(edad.value);">
+	<br>
+	<br>
+	Ingresa un número para calcular su factorial: <input type="text" name="numfact" id="numfact">
+	<input type="button" name="Calcular" value="Calcular" onclick="factit(numfact.value)">
+	<br>
+	<br>
+	Ingresa un numero para imprimir el mes correspondiente: <input type="text" name="mes" id="mes">
+	<input type="button" name="Ver el mes " value="Ver el mes" onclick="meses(mes.value)">
+	<br>
+	<br>
+	Ingresa la cantidad para calcular el iva: <input type="text" name="precio" id="precio">
+	<input type="button" name="Ver el iva" value="Ver el iva" onclick="iva(precio.value)">
+	</div>
+	</div>
+
+	<script type="text/javascript" src="operaciones.js"></script>
+</body>
+</html>
